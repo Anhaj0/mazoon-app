@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Phone, Mail, MapPin, ChevronRight, HardHat, Truck, ShieldCheck, Wrench, Building2, Pickaxe } from 'lucide-react';
+import logoImg from './assets/LOGO.jpeg';
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -57,7 +58,7 @@ const App = () => {
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => scrollTo('Home')}>
-              <img src="image_f29983.jpg" alt="Mazoon Al-Suhub Logo" className="h-16 w-auto" />
+              <img src={logoImg} alt="Mazoon Al-Suhub Logo" className="h-16 w-auto" />
               <div className="ml-3 hidden sm:block">
                 <h1 className="text-xl font-bold text-blue-900 tracking-tight uppercase">Mazoon Al-Suhub</h1>
                 <p className="text-xs text-yellow-600 font-semibold tracking-widest uppercase">General Contracting Est.</p>
@@ -286,7 +287,7 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
-              <img src="image_f29983.jpg" alt="Mazoon Logo" className="h-20 w-auto mb-6 bg-white p-2" />
+              <img src={logoImg} alt="Mazoon Logo" className="h-20 w-auto mb-6 bg-white p-2" />
               <p className="text-gray-300 text-sm mb-6 leading-relaxed">
                 Delivering high-quality civil, earth-moving, and infrastructure services across the Kingdom of Saudi Arabia.
               </p>
