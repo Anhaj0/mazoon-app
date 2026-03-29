@@ -1,0 +1,58 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="88" y1="52" x2="560" y2="592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF3FA"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 128) rotate(43.1524) scale(264.977 224.692)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gearBlue" x1="165" y1="98" x2="434" y2="355" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8AD2FF"/>
+      <stop offset="0.47" stop-color="#2367B8"/>
+      <stop offset="1" stop-color="#10284B"/>
+    </linearGradient>
+    <linearGradient id="ringDark" x1="221" y1="140" x2="454" y2="336" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36528B"/>
+      <stop offset="0.55" stop-color="#102C5B"/>
+      <stop offset="1" stop-color="#08162F"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="106" y1="296" x2="543" y2="234" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8C5800"/>
+      <stop offset="0.2" stop-color="#FBE28E"/>
+      <stop offset="0.44" stop-color="#E2A91E"/>
+      <stop offset="0.65" stop-color="#FFF0B2"/>
+      <stop offset="1" stop-color="#BB7B05"/>
+    </linearGradient>
+    <filter id="shadow" x="24" y="14" width="592" height="600" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="16"/>
+      <feGaussianBlur stdDeviation="20"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0813021 0 0 0 0 0.130039 0 0 0 0 0.217592 0 0 0 0.18 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+  <g filter="url(#shadow)">
+    <rect x="64" y="54" width="512" height="512" rx="76" fill="url(#bg)"/>
+    <rect x="65.5" y="55.5" width="509" height="509" rx="74.5" stroke="#D8DFEA" stroke-width="3"/>
+    <rect x="64" y="54" width="512" height="512" rx="76" fill="url(#shine)"/>
+  </g>
+  <path d="M212.813 142.15L235.515 108.924L269.179 119.334L290.856 95.38L324.431 108.679L353.315 88L382.048 108.864L415.697 95.759L437.236 119.832L470.962 109.617L493.472 142.977L529.022 145.478L535.1 185.66L567.864 199.704L557.087 234.302L581 260.834L557.087 287.365L567.864 321.964L535.1 336.008L529.022 376.189L493.472 378.69L470.962 412.05L437.236 401.835L415.697 425.907L382.048 412.802L353.315 433.667L324.431 412.988L290.856 426.286L269.179 402.332L235.515 412.742L212.813 379.516L177.257 377.015L171.179 336.834L138.416 322.789L149.193 288.191L125.28 261.66L149.193 235.128L138.416 200.53L171.179 186.485L177.257 146.304L212.813 142.15Z" fill="url(#gearBlue)"/>
+  <path d="M240.379 158.651L219.693 188.933L186.835 192.768L192.453 224.558L167.523 235.217L175.74 261.471L167.523 287.724L192.453 298.384L186.835 330.174L219.693 334.009L240.379 364.291L271.48 354.675L290.833 376.07L321.838 363.786L348.515 382.893L375.052 363.959L406.17 376.079L425.381 354.56L456.609 364.017L477.122 333.617L509.958 329.598L503.896 297.944L529.171 287.558L520.588 261.422L529.171 235.286L503.896 224.9L509.958 193.246L477.122 189.227L456.609 158.827L425.381 168.284L406.17 146.765L375.052 158.885L348.515 139.95L321.838 159.057L290.833 146.773L271.48 168.168L240.379 158.651Z" fill="#E9F3FF" fill-opacity="0.32"/>
+  <circle cx="352" cy="251" r="110" fill="#F3F7FB"/>
+  <circle cx="352" cy="251" r="81" fill="url(#ringDark)"/>
+  <circle cx="352" cy="251" r="54" fill="#F4F7FB"/>
+  <path d="M136 300C187.827 216.231 253.812 173.514 333.954 171.85C415.4 170.159 489.23 213.966 555 300" stroke="url(#gold)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M137.5 315C207.438 365.097 275.938 389.704 343 388.821C422.542 387.773 493.48 352.397 548 284" stroke="url(#gold)" stroke-width="18" stroke-linecap="round" opacity="0.88"/>
+  <path d="M156 268C211.098 326.616 268.148 357.469 327.15 360.56C392.708 363.996 455.658 333.68 516 269" stroke="#0E63BA" stroke-width="10" stroke-linecap="round" opacity="0.72"/>
+  <text x="320" y="458" text-anchor="middle" fill="#1B4DA1" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" letter-spacing="5">MAZOON</text>
+  <g transform="translate(102 482)">
+    <line x1="0" y1="20" x2="130" y2="20" stroke="#C89A34" stroke-width="4" stroke-linecap="round"/>
+    <line x1="306" y1="20" x2="436" y2="20" stroke="#C89A34" stroke-width="4" stroke-linecap="round"/>
+    <text x="218" y="31" text-anchor="middle" fill="#B68522" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="3">AL-SUHUB</text>
+  </g>
+  <text x="320" y="564" text-anchor="middle" fill="#60656B" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="500" letter-spacing="5">INDUSTRIAL SOLUTIONS</text>
+</svg>
